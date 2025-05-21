@@ -1,0 +1,5 @@
+# 使用 R 官方 Docker image
+FROM rocker/r-base:latest
+
+# 安裝常用 R 套件（可自行新增）
+RUN R -e "install.packages(c('ggplot2', 'dplyr', 'tidyverse'), repos='http://cran.us.r-project.org')"
