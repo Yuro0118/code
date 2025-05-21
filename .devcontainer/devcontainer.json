@@ -1,0 +1,13 @@
+{
+  "name": "R Environment",
+  "image": "rocker/rstudio",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Ikuyadeu.r",
+        "REditorSupport.r-lsp"
+      ]
+    }
+  },
+  "features": {}
+}
